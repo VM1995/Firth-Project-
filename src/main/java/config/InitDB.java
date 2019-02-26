@@ -19,7 +19,7 @@ import java.util.HashSet;
 @RequiredArgsConstructor
 public class InitDB {
 
-    private static boolean isInit = false
+    private static boolean isInit = false;
 
     private final UserDAO userDAO;
     private final UniversityDAO universityDAO;
